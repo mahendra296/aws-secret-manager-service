@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: aws-secret-manager-service
+  profiles:
+    active: dev
+aws:
+  region: "region of secret manager"
+  secret: "secret name "
+
