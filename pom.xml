@@ -32,11 +32,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-secretsmanager</artifactId>
 			<version>1.11.792</version>
-		</dependency>
+		</dependency> -->
+		<dependency>
+            		<groupId>software.amazon.awssdk</groupId>
+            		<artifactId>secretsmanager</artifactId>
+        	</dependency>
 	</dependencies>
 	<build>
 		<plugins>
